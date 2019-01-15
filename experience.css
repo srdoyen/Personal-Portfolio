@@ -1,0 +1,68 @@
+.worklist {
+    list-style: none;
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: none;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.languages {
+    font-size: 23px;
+    text-align: right;
+    font-weight: bold;
+    
+    
+}
+
+.stars {
+    text-align: left;
+    padding-left: 10px;
+}
+
+ul li {
+    
+    list-style: none;
+}
+
+ol li {
+    list-style: circle;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.titles {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Media query */
+@media only screen and (max-width: 1200px) {
+    .worklist {
+        list-style: none;
+        color: darkblue;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left: 0px;
+    }
+    
+    .languages {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .stars {
+        text-align: center;
+    }
+    
+    
+
+}
